@@ -1,6 +1,6 @@
 rootProject.name = 'YouTrackMobile'
 
-include ':..'
+
 include ':app'
 include ':react-native-eventsource'
 project(':react-native-eventsource').projectDir = new File(rootProject.projectDir, '../node_modules/@huston007/react-native-eventsource/android')
